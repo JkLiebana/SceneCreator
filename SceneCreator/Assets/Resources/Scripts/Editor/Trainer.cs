@@ -252,7 +252,7 @@ class Trainer : EditorWindow
 
 
         testGroup = new List<Texture2D[]>();       
-        testGroup.Add(Resources.LoadAll<Texture2D>("Sprites/TrainingSet/Prueba"));
+        testGroup.Add(Resources.LoadAll<Texture2D>("Sprites/TrainingSet/Test"));
         Debug.Log("TestGroup Size: " + testGroup[0].Length);
         perforCounter = 0;
         for (int i = 0; i < testGroup[0].Length; i++)

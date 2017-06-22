@@ -201,7 +201,7 @@ public class NetworkManager : Singleton<NetworkManager> {
         switch (file)
         {
             case "trainer":
-                return Application.dataPath + "/CSV/" + "Trainer_Saved_data.txt";
+                return Application.dataPath + "/Data/" + "Trainer_Saved_data.txt";
             default:
                 return "";
         }
